@@ -63,3 +63,23 @@
     border-radius: 10px;
     flex-direction: row; 
 }
+
+.input_container_location {
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.input_container_search{
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.input_container_location{
+    width: 35%;
+}
+
+.input_container_search{
+    width: 65%;
+}
