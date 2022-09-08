@@ -130,3 +130,16 @@
         width: 80%;
     }
 }
+
+.container{
+    margin: 48px auto;
+    width: 80%;
+}
+
+.we__offer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
