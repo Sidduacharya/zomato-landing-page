@@ -389,6 +389,7 @@
 .footer{
     width:100%;
     background: rgb(248,248,248);
+    padding: 50px 0;
 }
 
 .footer_section1{
@@ -426,6 +427,7 @@
     width: 80%;
     margin: auto;
     padding: 3rem 0;
+    gap: 1rem;
 }
 
 .link__container{
@@ -471,4 +473,31 @@
 .social__links_container button i{
     color: white;
     font-size: 13px;
+}
+
+.footer__store_logos{
+    width: 80%;
+}
+
+@media only screen and (max-width: 900px){
+    .navigation_container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navigation_container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .footer_section1{
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    
+    .navigation_container {
+        grid-template-columns: 1fr;
+    }
 }
